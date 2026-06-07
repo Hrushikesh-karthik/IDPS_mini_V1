@@ -1,0 +1,26 @@
+# =============================================================================
+# requirements.txt — Python Dependencies
+# =============================================================================
+# Install everything with:
+#   pip install -r requirements.txt
+# =============================================================================
+
+# --- Web Framework (Reverse Proxy) ---
+fastapi==0.111.0          # Async web framework for the proxy server
+uvicorn[standard]==0.29.0 # ASGI server to run FastAPI
+httpx==0.27.0             # Async HTTP client (forwards requests to backend)
+
+# --- Machine Learning ---
+scikit-learn==1.4.2       # Random Forest, Isolation Forest, scalers, encoders
+numpy==1.26.4             # Numerical arrays
+pandas==2.2.2             # Data loading and preprocessing
+
+# --- Explainability ---
+shap==0.45.0              # SHAP values for explaining ML predictions
+
+# --- Dashboard ---
+streamlit==1.35.0         # Interactive web dashboard
+plotly==5.22.0            # Charts and graphs for the dashboard
+
+# --- Utilities ---
+python-dotenv==1.0.1      # Load .env files for secrets (optional)
