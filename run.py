@@ -36,6 +36,6 @@ def home():
         result = f"<div class='result'>Hello {name}, you are {age} years old!</div>"
 
     return html.format(result=result)
-
+#main
 if __name__ == "__main__":
     app.run(debug=True,port=8001)
