@@ -103,7 +103,7 @@ with st.sidebar:
 # =============================================================================
 
 st.title("🛡️ Zero Trust AI Security Proxy")
-st.caption("Real-time monitoring of incoming traffic and blocked attacks.")
+st.caption("Real-time monitoring of incoming traffic and blocked attacks..")
 
 main_tab1, main_tab2, main_tab3 = st.tabs([
     "📊 Overview & Analytics",
